@@ -1,0 +1,17 @@
+.general {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .general {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .general {
+    grid-template-columns: auto;
+  }
+}

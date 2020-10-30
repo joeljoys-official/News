@@ -1,0 +1,65 @@
+.content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: column;
+  width: 30vw;
+  height: 60vh;
+  overflow: hidden;
+  box-shadow: 0 2px 5px #aaaaaa;
+  position: relative;
+}
+.imgContainer {
+  width: 100%;
+  height: 70%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+.title {
+  font-size: 1.2vw;
+  margin: 0;
+}
+
+.description {
+  font-size: 0.9vw;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.date {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 800px) {
+  .content {
+    width: 47vw;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    width: 100vw;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+}

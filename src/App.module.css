@@ -1,0 +1,20 @@
+.Links {
+  display: flex;
+  text-decoration: none;
+  z-index: 90;
+  justify-content: space-around;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  min-height: 50px;
+}
+a {
+  text-decoration: none;
+}
+.LinkEL {
+  border-bottom: 2px solid greenyellow;
+}
